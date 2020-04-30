@@ -1,0 +1,59 @@
+h1 {
+    padding-bottom: 30px;
+}
+
+html {
+    height: 100%;
+}
+
+.wrap {
+    background-color: white;
+    padding: 30px;
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    /* min-width: 1024px;
+    max-width: 1440px; */
+}
+
+.loader {
+    width: 100px;
+    position: absolute;
+    top: 118px;
+    left: 320px;
+    z-index: -1;
+    display: none;
+}
+
+.atas {
+    float: right;
+}
+
+input,
+td {
+    padding: 5px;
+}
+
+.suc {
+    float: right;
+    /* width: 100%; */
+}
+
+@media print {
+
+    .logout,
+    .tambah,
+    .form-cari,
+    .aksi {
+        display: none;
+    }
+}
+
+body {
+    background-color: aqua !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: auto !important;
+    min-width: 1024px;
+    max-width: 1440px;
+}
